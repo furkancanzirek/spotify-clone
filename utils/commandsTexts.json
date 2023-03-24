@@ -1,0 +1,29 @@
+{
+  "commands": [
+    {
+      "name": "Similar Artist and Songs",
+      "description": "Returns similar songs by artist name and song name",
+      "example": "Tarkan - Kuzu Kuzu",
+      "key": "similarArtistAndSongs",
+      "chat-messages": {
+        "messages": [
+          "Lütfen Sanatçı Adı Giriniz",
+          "Lütfen Şarkı Adı Giriniz",
+          "Sanatçı Adı {artist} Şarkı Adı {song} için sonuçlar şu şekildedir:"
+        ]
+      }
+    },
+    {
+      "name": "Similar Artist",
+      "description": "Returns similar artists by artist name",
+      "example": "Tarkan",
+      "key": "similarArtist",
+      "chat-messages": {
+        "messages": [
+          "Lütfen Sanatçı Adı Giriniz",
+          "Sanatçı Adı {artist} için sonuçlar şu şekildedir:"
+        ]
+      }
+    }
+  ]
+}
